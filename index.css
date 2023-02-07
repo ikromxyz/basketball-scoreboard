@@ -1,0 +1,124 @@
+@font-face {
+    font-family: CursedTimerUlil;
+    src: url('/font/CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+
+.container-increment {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+
+.container-increment2 {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+}
+
+.increment {
+    background-color: transparent;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: CursedTimerUlil;
+}
+
+.title {
+    position:absolute;
+    width: 149px;
+    height: 36px;
+    left: calc(50% - 149px/2 - 128px);
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+    color: #EEEEEE;
+    background-color: none;
+}
+
+.title2 {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.home1 {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: calc(50% - 117px/2 - 123px);
+    top: calc(50% - 120px/2 - 7.5px);
+    font-family: 'CursedTimerUlil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+    color: #F94F6D;
+    background-color: black;
+}
+
+.home2 {
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 355px;
+    top: 125px;
+    font-family: 'CursedTimerUlil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+    color: #F94F6D;
+    background-color: black;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1em;
+}
